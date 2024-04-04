@@ -211,6 +211,13 @@ const TaskList = () => {
                   onClick={() =>
                     handleToggleCompletion(task._id, task.completed)
                   }
+                  sx={{
+                    backgroundColor: task.completed ? '#f44336' : '#4caf50',
+                    color: '#fff',
+                    '&:hover': {
+                      backgroundColor: task.completed ? '#f44336' : '#4caf50',
+                    }
+                  }}
                 >
                   {task.completed ? "Mark Incomplete" : "Mark Complete"}
                 </Button>
