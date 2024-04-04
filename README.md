@@ -26,3 +26,12 @@ Note : Whenever you access the website first time the backend takes a little bit
 5. In TaskList you can Delete , Edit and Toggle your Task well.
 6. User can also see their Profile in profile section.
 7. Relationship is also implemented which means the task that is created by the specific user is only shown in that user dashboard . If you logged in with another user you have to create your own specific task.
+
+
+# In case if you want to run it locally
+
+1. You have to clone the project from this link
+   https://github.com/sanjeetk5/QuadB.git
+2. After cloning run the command "npm i"
+3. After the dependencies gets Installed you can use this command to start the server "npm run start".
+   
