@@ -17,18 +17,18 @@ import { Link, useNavigate } from 'react-router-dom';
 import { register } from '../redux/authReducer/action';
 import { Alert, AlertTitle } from '@mui/material';
 
-function Copyright(props) {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+// function Copyright(props) {
+//   return (
+//     <Typography variant="body2" color="text.secondary" align="center" {...props}>
+//       {'Copyright © '}
+//       <Link to="/" color="inherit" >
+//         Sitemark
+//       </Link>{' '}
+//       {new Date().getFullYear()}
+//       {'.'}
+//     </Typography>
+//   );
+// }
 
 // TODO remove, this demo shouldn't need to reset the theme.
 
@@ -181,7 +181,7 @@ export default function Register() {
             </Grid>
           </Box>
         </Box>
-        <Copyright sx={{ mt: 5 }} />
+        
       </Container>
     </ThemeProvider>
       {alertComponent && (

@@ -55,7 +55,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-const Usertask = () => {
+const TaskList = () => {
   const dispatch = useDispatch();
   const { isLoading, gettask, task } = useSelector(
     (store) => store.authReducer
@@ -223,4 +223,4 @@ const Usertask = () => {
   );
 };
 
-export default Usertask;
+export default TaskList;

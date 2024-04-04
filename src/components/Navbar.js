@@ -107,7 +107,7 @@ function Navbar() {
                 <MenuItem sx={{ py: "6px", px: "12px" }}>
                   <Link to={"/usertask"} sx={{ textDecoration: "none" }}>
                     <Typography variant="body2" color="text.primary">
-                      Highlights
+                      All Task
                     </Typography>
                   </Link>
                 </MenuItem>
@@ -180,7 +180,7 @@ function Navbar() {
                     <MenuItem>Task</MenuItem>
                   </Link>
                   <Link to={"/usertask"} sx={{ textDecoration: "none" }}>
-                    <MenuItem>Highlights</MenuItem>
+                    <MenuItem>All Task</MenuItem>
                   </Link>
 
                   <Divider />

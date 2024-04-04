@@ -5,9 +5,10 @@ import Landing from "../pages/Landing";
 import Register from "../pages/Register";
 import Login from "../pages/Login";
 import GetUser from "../pages/GetUser";
-import Task from "../pages/Task";
-import Usertask from "../pages/Usertask";
+
 import PrivateRoutes from "./PrivateRoutes";
+import TaskInput from "../pages/TaskInput";
+import TaskList from "../pages/TaskList";
 
 const MainRoutes = () => {
   return (
@@ -20,7 +21,7 @@ const MainRoutes = () => {
         path="/task"
         element={
           <PrivateRoutes>
-            <Task />
+            <TaskInput />
           </PrivateRoutes>
         }
       />
@@ -28,7 +29,7 @@ const MainRoutes = () => {
         path="/usertask"
         element={
           <PrivateRoutes>
-            <Usertask />
+            <TaskList />
           </PrivateRoutes>
         }
       />

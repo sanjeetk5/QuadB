@@ -18,23 +18,23 @@ import { login } from "../redux/authReducer/action";
 import Loading from "../components/Loading";
 import { Alert, AlertTitle } from "@mui/material";
 
-function Copyright(props) {
-  return (
-    <Typography
-      variant="body2"
-      color="text.secondary"
-      align="center"
-      {...props}
-    >
-      {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+// function Copyright(props) {
+//   return (
+//     <Typography
+//       variant="body2"
+//       color="text.secondary"
+//       align="center"
+//       {...props}
+//     >
+//       {"Copyright © "}
+//       <Link to="/">
+//         Sitemark
+//       </Link>{" "}
+//       {new Date().getFullYear()}
+//       {"."}
+//     </Typography>
+//   );
+// }
 
 // TODO remove, this demo shouldn't need to reset the theme.
 
@@ -173,7 +173,7 @@ export default function Login() {
               </Grid>
             </Box>
           </Box>
-          <Copyright sx={{ mt: 8, mb: 4 }} />
+        
         </Container>
       </ThemeProvider>
       {alertComponent && (
