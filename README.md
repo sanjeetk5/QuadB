@@ -13,11 +13,13 @@ Tech Stack used
 
 **Database = MongoDB
 
-Deployed Link = 
+Deployed Link = https://quad-b-delta.vercel.app/
 
 Steps to access the website
 
-1. First of all you have to signup. 
+Note : Whenever you access the website first time the backend takes a little bit of time to get rendered.
+
+1. First of all you have to signup.
 2. Login from the registered emailId , In case if you want to login directly I am providing a registered email address and password Email : test@gmail.com , Password : test1234
 3. After Login you have the access to add Task.
 4. After Adding the task you will directly redirected to Task List.
